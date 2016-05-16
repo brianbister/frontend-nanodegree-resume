@@ -11,7 +11,7 @@ body, div, ul, li, p, h1, h2, h3, h4, h5, h6 {
 }
 h1 {
     font-size: 40px;
-    color: #f5a623;
+    color: lightblue;
     line-height: 48px;
     display: inline;
 }
@@ -25,7 +25,7 @@ h2 {
 h3 {
     font-style: italic;
     font-size: 20px;
-    color: #000;
+    color: #999;
     line-height: 22px;
 }
 h4 {
@@ -69,14 +69,14 @@ a {
     line-height: 28px;
 }
 #skills-h3 {
-    color: #f5ae23;
+    color: lightblue;
     display: none;
 }
-.orange {
-    background-color: #f5ae23;
+.green {
+    background-color: darkgreen;
 }
-.orange-text {
-    color: #f5ae23;
+.lightblue-text {
+    color: lightblue;
 }
 .white-text {
     font-weight: bold;
@@ -94,7 +94,7 @@ a {
 /* TODO: Replace with image later */
 
 #header {
-    background-color: #484848;
+    background-color: darkgreen;
 }
 .flex-box {
     display: -webkit-flex;
@@ -163,4 +163,11 @@ span {
     #skills-h3, .biopic {
         display: block;
     }
+}
+.project-image {
+    box-shadow: 5px 3px 5px grey;
+    margin-bottom: 10px;
+}
+#mapDiv {
+    box-shadow: 0px 0px 5px grey;
 }
