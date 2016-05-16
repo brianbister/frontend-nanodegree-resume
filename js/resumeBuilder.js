@@ -26,7 +26,7 @@ bio.display = function() {
   headerSelector.append(HTMLwelcomeMsg.replace('%data%', this.welcomeMessage));
   headerSelector.append(HTMLskillsStart);
   for (var i = 0; i < this.skills.length; i++) {
-    headerSelector.append(HTMLskills.replace('%data%', this.skills[i]));
+    $('#skills').append(HTMLskills.replace('%data%', this.skills[i]));
   }
 
   var topContactsSelector = $('#topContacts');
